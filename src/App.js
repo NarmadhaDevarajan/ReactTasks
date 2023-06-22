@@ -43,7 +43,7 @@ function App() {
               <Item name="Monthly Status Reports"><li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li></Item>
             </ul>
             <div className="d-grid">
-              <button className="btn btn-primary text-uppercase">Button</button>
+              <a href="#" className="btn btn-primary text-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -54,8 +54,8 @@ function App() {
           <div className="card-body">
             <h5 className="card-title text-muted text-uppercase text-center">Plus</h5>
             <h6 className="card-price text-center">$9<span className="period">/month</span></h6>
-            <hr/>
-                   
+            <hr />
+               
             <ul className="fa-ul">
              <List name=<strong>"5 Users"</strong> > <li><span className="fa-li"><i className="fas fa-check"></i></span><strong>5 Users</strong></li></List>
              <List name="50GB Storage"><li><span className="fa-li"><i className="fas fa-check"></i></span>50GB Storage</li></List>
@@ -67,7 +67,7 @@ function App() {
               <Item name="Monthly Status Reports"><li className="text-muted"><span className="fa-li"><i className="fas fa-times"></i></span>Monthly Status Reports</li></Item>
             </ul>
             <div className="d-grid">
-              <button className="btn btn-primary text-uppercase">Button</button>
+              <a href='#' className="btn btn-primary text-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ function App() {
               <List name="Monthly Status Report"><li><span className="fa-li"><i className="fas fa-check"></i></span>Monthly Status Reports</li></List>
             </ul>
             <div className="d-grid">
-              <button className="btn btn-primary text-uppercase">Button</button>
+              <a href="#" className="btn btn-primary text-uppercase">Button</a>
             </div>
           </div>
         </div>
