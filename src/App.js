@@ -1,10 +1,10 @@
-import "./App.css";
-import Home from "./Components/Home";
+import "App.css";
+import Home from "Components/Home";
 import { useState } from "react";
-import Cart from "./Components/Cart";
-import Navigation from "./Components/Nav";
-import Header from "./Components/Header";
-import productdata from "./Data/data";
+import Cart from "Components/Cart";
+import Navigation from "Components/Nav";
+import Header from "Components/Header";
+import productdata from "Data/data";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {

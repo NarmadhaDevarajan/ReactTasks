@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Navigation = ({ cartItems }) => {
   const noItemsCart = cartItems.length;
