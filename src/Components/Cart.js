@@ -21,21 +21,22 @@ const Cart = ({ cartItems, removeItem }) => {
                       );
                     })}
                   
-                      
+            
+            
     </div>
   );
 };
 
 function CartItem({ cartItem, removeItem }) {
   return (
-    <li className="list-group-item gy-5" >
+    <li className="list-group-item gy-5">
       <div className="row">
         <div className="col-sm-3">
           <img src={cartItem.productImg} style={{ width: "100%" }} alt="" />
         </div>
         <div className="col-sm-9">
           <h3 className="card-text">{cartItem.productName}</h3>
-          {/* <p>${cartItem.productImg}</p> */}
+
           <button
             onClick={() => removeItem(cartItem.id)}
             className="btn btn-primary"
