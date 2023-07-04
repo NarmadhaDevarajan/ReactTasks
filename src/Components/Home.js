@@ -15,7 +15,6 @@ const Home = ({ productdata, addItem, cartItems }) => {
                   price={product.productPrice}
                   rating={product.productRating}
                   sale={product.sale}
-                  salePrice={product.productSalePrice}
                   key={product.id}
                   id={product.id}
                   addItem={addItem}
@@ -36,7 +35,6 @@ function ProductCard({
   price,
   rating,
   sale,
-  salePrice,
   id,
   addItem,
   cartItems,
