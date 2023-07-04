@@ -1,5 +1,5 @@
 import React from "react";
-import StarRating from "./Rate";
+import StarRating from './Rate';
 
 const Home = ({ productdata, addItem, cartItems }) => {
   return (
