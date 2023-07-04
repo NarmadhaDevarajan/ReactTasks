@@ -5,7 +5,7 @@ import Cart from "./Components/Cart";
 import Navigation from "./Components/Nav";
 import Header from './Components/Header'
 import productdata from "./Data/data";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
